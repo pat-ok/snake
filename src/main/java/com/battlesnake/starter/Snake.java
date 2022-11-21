@@ -29,6 +29,7 @@ public class Snake {
     private static final Handler HANDLER = new Handler();
     private static final Logger LOG = LoggerFactory.getLogger(Snake.class);
 
+
     /**
      * Main entry point.
      *
