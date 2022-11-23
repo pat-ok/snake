@@ -24,10 +24,10 @@ import static spark.Spark.get;
  * For instructions see
  * https://github.com/BattlesnakeOfficial/starter-snake-java/README.md
  */
-public class Snake {
+public class SnakeGame {
     private static final ObjectMapper JSON_MAPPER = new ObjectMapper();
     private static final Handler HANDLER = new Handler();
-    private static final Logger LOG = LoggerFactory.getLogger(Snake.class);
+    private static final Logger LOG = LoggerFactory.getLogger(SnakeGame.class);
 
 
     /**
@@ -193,6 +193,9 @@ public class Snake {
             Map<String, String> response = new HashMap<>();
             response.put("move", move);
             return response;
+
+
+
         }
 
         /**
